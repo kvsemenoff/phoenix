@@ -5,6 +5,7 @@
 @import "style5.css";
 @import "fonts.css";
 
+$orange: #ff4606;
 
 .clear{
     clear: both;
@@ -12,9 +13,85 @@
 .center{
 	text-align: center;
 }
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header{
+	width: 100%;
+	height: 1557px;
+	background: url(../img/header.jpg) no-repeat top center;
+}
+.logo-box{
+	float: left;
+	margin-left: -100px;
+	margin-top: 12px;
+	//outline: 1px solid red;
+}
+.menu-box{
+	float: left;
+	margin-top: 34px;
+	margin-left: 50px;
+	//outline: 1px solid red;
+}
+.main-menu{
+	li{
+		display: inline-block;
+		margin-right: 28px;
+		a{
+			color: #fff;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 16px;
+			letter-spacing: 0.05em;
+			position: relative;
+			font-family: "ElektraLightProRegular";
+		}
+		a:hover{
+			position: relative;
+			
+			//animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+		}
+		a:hover:before{
+			display: block;
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 8px;
+			background: $orange;
+			top: -35px;
+			
+			animation: menuhover 500ms ease-in-out;
+			
+
+		}
+
+		
 
 
+		@keyframes menuhover{
+		    from {
+		    	opacity: 0;
+		    	width: 0%;
+		    	top: -10px;
+		    }
+		    to {
+		    	opacity: 1;
+		    	width: 100%;
+		    	top: -35px;
+		    }
+		}
 
+	}
+	li:last-child{
+		margin-right: 0px;
+	}
+}
+
+.soc-block{
+	
+}
 @media only screen and (min-width : 320px) {
 }
 

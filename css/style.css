@@ -10,4 +10,57 @@
 .center {
   text-align: center; }
 
+.container {
+  width: 1170px;
+  margin: 0 auto; }
+
+.header {
+  width: 100%;
+  height: 1557px;
+  background: url(../img/header.jpg) no-repeat top center; }
+
+.logo-box {
+  float: left;
+  margin-left: -100px;
+  margin-top: 12px; }
+
+.menu-box {
+  float: left;
+  margin-top: 34px;
+  margin-left: 50px; }
+
+.main-menu li {
+  display: inline-block;
+  margin-right: 28px; }
+  .main-menu li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    position: relative;
+    font-family: "ElektraLightProRegular"; }
+  .main-menu li a:hover {
+    position: relative; }
+  .main-menu li a:hover:before {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    background: #ff4606;
+    top: -35px;
+    animation: menuhover 500ms ease-in-out; }
+@keyframes menuhover {
+  from {
+    opacity: 0;
+    width: 0%;
+    top: -10px; }
+  to {
+    opacity: 1;
+    width: 100%;
+    top: -35px; } }
+.main-menu li:last-child {
+  margin-right: 0px; }
+
 /*# sourceMappingURL=style.css.map */
