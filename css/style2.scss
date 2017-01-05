@@ -6,16 +6,53 @@
 @import "fonts.css";
 
 .db-footer{
+	padding: 50px 0;
 	width: 100%;
 	background-color: #252525;
 	.db-footer-container{
-		width: 395px;
+		width: 400px;
+		margin:0 auto;
+		text-align: center;
 		.db-h{
-			outline: 1px solid red;
 			h2{
-			font-family: "ElektraLightProBold";
-			font-size: 30px;
-			font-weight: 700;
+				font-family: "ElektraLightProBold";
+				font-size: 30px;
+				font-weight: 700;
+				color:#fff;
+				padding-bottom: 30px;
+			}
+		}
+		.db-text-content{
+			font-family:"MyriadProRegular";
+			font-size: 16px;
+			color: #fe3800;
+			font-weight: 400;
+			line-height: 18px;
+			letter-spacing: 0.1em;
+			padding-bottom:54px;
+			.db-text-one{
+				float:left;
+			}
+			.db-text-two{
+				float:right;
+			}
+		}
+		.db-seti-content{
+			display: table;
+			text-align: center;
+			width: 224px;
+			margin: 0 auto;
+			.db-seti-one{
+				display: table-cell;
+			}
+			.db-seti-two{
+				display: table-cell;
+			}
+			.db-seti-three{
+				display: table-cell;
+			}
+			.db-seti-four{
+				display: table-cell;
 			}
 		}
 	} 
@@ -40,7 +77,7 @@
     //outline: 5px solid red;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  
+
 }
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
 }
