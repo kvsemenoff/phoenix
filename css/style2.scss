@@ -5,6 +5,22 @@
 @import "style4.css";
 @import "fonts.css";
 
+.db-footer{
+	width: 100%;
+	background-color: #252525;
+	.db-footer-container{
+		width: 395px;
+		.db-h{
+			outline: 1px solid red;
+			h2{
+			font-family: "ElektraLightProBold";
+			font-size: 30px;
+			font-weight: 700;
+			}
+		}
+	} 
+}
+
 @media only screen and (min-width : 320px) {
 }
 

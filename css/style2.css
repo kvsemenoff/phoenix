@@ -1,8 +1,2 @@
-@import url(reset.css);
-@import url(style.css);
-@import url(style2.css);
-@import url(style3.css);
-@import url(style4.css);
-@import url(fonts.css);
-
+@import url(reset.css);@import url(style.css);@import url(style2.css);@import url(style3.css);@import url(style4.css);@import url(fonts.css);.db-footer{width:100%;background-color:#252525}.db-footer .db-footer-container{width:395px}.db-footer .db-footer-container .db-h{outline:1px solid red}.db-footer .db-footer-container .db-h h2{font-family:"ElektraLightProBold";font-size:30px;font-weight:700}
 /*# sourceMappingURL=style2.css.map */
